@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhoneScanner</string>
+    <string name="scan_button">Scan Document</string>
+    <string name="scan_hint">Point your camera at a document. The scanner will auto-detect edges, let you capture multiple pages, and save the result as a PDF.</string>
+    <string name="recent_scans">Recent scans</string>
+    <string name="no_scans_yet">No scans yet — tap the button above to create your first PDF.</string>
+    <string name="saved_to">Saved to %1$s</string>
+    <string name="save_failed">Could not save PDF: %1$s</string>
+    <string name="scan_canceled">Scan canceled</string>
+    <string name="open">Open</string>
+</resources>

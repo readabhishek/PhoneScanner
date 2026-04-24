@@ -24,8 +24,8 @@ android {
         applicationId = "com.readabhishek.phonescanner"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -96,6 +96,10 @@ dependencies {
     // Google ML Kit Document Scanner (handles edge detection, perspective,
     // multi-page capture, and can emit a ready-made PDF).
     implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+
+    // Google ML Kit Text Recognition (on-device OCR, Latin script).
+    // Used to pull readable text out of the scanned page images.
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.1")
 
     // Testing (optional but included for completeness)
     testImplementation("junit:junit:4.13.2")

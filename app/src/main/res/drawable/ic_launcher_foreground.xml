@@ -3,11 +3,55 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Simple stylized document/scan icon -->
+    <!--
+        Scanner-styled launcher icon.
+        Adaptive-icon safe area is the central 66x66 of the 108x108 viewport;
+        everything critical is kept within roughly x:[21..87], y:[21..87].
+    -->
+
+    <!-- Document body: slightly tilted page with folded top-right corner -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M36,30 L72,30 L72,84 L36,84 Z" />
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,26 L66,26 L78,38 L78,84 L34,84 Z" />
+
+    <!-- Folded corner highlight -->
     <path
-        android:fillColor="#FFBB86FC"
-        android:pathData="M40,40 L68,40 L68,44 L40,44 Z M40,50 L68,50 L68,54 L40,54 Z M40,60 L60,60 L60,64 L40,64 Z" />
+        android:fillColor="#FFE0E7FF"
+        android:pathData="M66,26 L78,38 L66,38 Z" />
+
+    <!-- Document text lines -->
+    <path
+        android:fillColor="#FF4F46E5"
+        android:pathData="M40,46 L72,46 L72,49 L40,49 Z" />
+    <path
+        android:fillColor="#FF4F46E5"
+        android:pathData="M40,54 L72,54 L72,57 L40,57 Z" />
+    <path
+        android:fillColor="#FF4F46E5"
+        android:pathData="M40,62 L64,62 L64,65 L40,65 Z" />
+    <path
+        android:fillColor="#FF818CF8"
+        android:pathData="M40,70 L60,70 L60,73 L40,73 Z" />
+
+    <!-- Scanner frame brackets (corners of a viewfinder) -->
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M24,20 L34,20 L34,24 L28,24 L28,30 L24,30 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M74,20 L84,20 L84,30 L80,30 L80,24 L74,24 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M24,80 L28,80 L28,86 L34,86 L34,90 L24,90 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M80,80 L84,80 L84,90 L74,90 L74,86 L80,86 Z" />
+
+    <!-- Scanning beam (glow behind + bright center line) -->
+    <path
+        android:fillColor="#66FBBF24"
+        android:pathData="M22,53 L86,53 L86,61 L22,61 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M22,56 L86,56 L86,58 L22,58 Z" />
 </vector>

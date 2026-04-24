@@ -1,11 +1,97 @@
 <resources>
     <string name="app_name">PhoneScanner</string>
+
+    <!-- Home / navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_files">Files</string>
+    <string name="search">Search</string>
+    <string name="recent_scans">Recents</string>
+    <string name="no_scans_yet">No scans yet — tap Scan or the + button to create your first PDF.</string>
+    <string name="files_title">Files</string>
+    <string name="files_subtitle">%1$d file(s)</string>
+    <string name="files_empty">No files yet. Scan a document or import a PDF to get started.</string>
+
+    <!-- Tile labels -->
+    <string name="tile_scan">Scan</string>
+    <string name="tile_import_pdf">Import PDF</string>
+    <string name="tile_import_images">Import Images</string>
+    <string name="tile_signature">Signature</string>
+    <string name="tile_google_doc">Google Doc</string>
+    <string name="tile_edit">Edit</string>
+
+    <!-- Row actions -->
+    <string name="open">Open</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_title">Delete file?</string>
+    <string name="delete_body">Delete %1$s? This cannot be undone.</string>
+
+    <!-- Scan flow -->
     <string name="scan_button">Scan Document</string>
-    <string name="scan_hint">Point your camera at a document. The scanner will auto-detect edges, let you capture multiple pages, and save the result as a PDF.</string>
-    <string name="recent_scans">Recent scans</string>
-    <string name="no_scans_yet">No scans yet — tap the button above to create your first PDF.</string>
+    <string name="scan_hint">Point your camera at a document. The scanner auto-detects edges and saves a PDF to Documents/PhoneScanner.</string>
     <string name="saved_to">Saved to %1$s</string>
     <string name="save_failed">Could not save PDF: %1$s</string>
     <string name="scan_canceled">Scan canceled</string>
-    <string name="open">Open</string>
+
+    <!-- OCR / Google Docs -->
+    <string name="ocr_recognize">Save as Google Doc</string>
+    <string name="ocr_running">Reading text from scan…</string>
+    <string name="ocr_done">Saved PDF + extracted text. Tap to send to Google Docs.</string>
+    <string name="ocr_no_text">Scan saved, but no readable text was found.</string>
+    <string name="ocr_failed">OCR failed: %1$s</string>
+    <string name="send_to_docs_chooser">Save as Google Doc</string>
+    <string name="send_to_docs_unavailable">No app available to receive text. Install Google Docs from the Play Store.</string>
+
+    <!-- Import flows -->
+    <string name="pdf_imported">Imported as %1$s</string>
+    <string name="pdf_import_failed">Could not import PDF: %1$s</string>
+    <string name="images_imported">Saved %1$d image(s) as %2$s</string>
+    <string name="images_import_failed">Could not import images: %1$s</string>
+
+    <!-- Edit results -->
+    <string name="file_deleted">Deleted %1$s</string>
+    <string name="file_renamed">Renamed to %1$s</string>
+    <string name="rename_failed">Rename failed: %1$s</string>
+    <string name="delete_failed">Delete failed: %1$s</string>
+
+    <!-- Tile hints -->
+    <string name="google_doc_tile_hint">Pick a file below and tap ⋮ → Save as Google Doc</string>
+    <string name="edit_tile_hint">Pick a file below and tap ⋮ to edit, rename, or delete</string>
+
+    <!-- Signature -->
+    <string name="signature_title">New signature</string>
+    <string name="signature_hint">Sign below with your finger. Saving creates a single-page PDF in Documents/PhoneScanner.</string>
+    <string name="signature_clear">Clear</string>
+    <string name="signature_save">Save</string>
+    <string name="signature_empty">Draw a signature before saving.</string>
+
+    <!-- PDF editor -->
+    <string name="edit_pdf">Edit content</string>
+    <string name="pdf_editor_title">Edit PDF</string>
+    <string name="pdf_editor_add_text">Add text</string>
+    <string name="pdf_editor_add_signature">Add signature</string>
+    <string name="pdf_editor_load_failed">Could not open PDF for editing: %1$s</string>
+    <string name="signature_import_failed">Could not load that file as a signature.</string>
+    <string name="signature_import_failed_with">Could not load signature: %1$s</string>
+
+    <!-- PDF editor tools -->
+    <string name="tool_select">Select</string>
+    <string name="tool_pen">Pen</string>
+    <string name="tool_highlighter">Highlighter</string>
+    <string name="tool_eraser">Eraser</string>
+    <string name="tool_rectangle">Rectangle</string>
+    <string name="tool_oval">Circle</string>
+    <string name="tool_crop">Crop</string>
+    <string name="tool_text">Text</string>
+    <string name="tool_signature">Signature</string>
+    <string name="clear_crop">Clear crop</string>
+
+    <!-- Text formatting -->
+    <string name="font_sans">Sans</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_mono">Mono</string>
+    <string name="font_size_smaller">Smaller</string>
+    <string name="font_size_bigger">Bigger</string>
 </resources>
